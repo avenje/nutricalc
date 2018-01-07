@@ -1,0 +1,14 @@
+// install in root
+
+// npm i --save-dev concurrently eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+
+// npm i babel-core express fs sql.js --save 
+
+======================================
+======================================
+
+// install in /client
+
+// npm i --save-dev enzyme react-addons-test-utils react-scripts
+
+// npm i babel-plugin-transform-class-properties react react-dom semantic-ui --save
