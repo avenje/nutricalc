@@ -18,7 +18,7 @@ export default function SelectedFoods(props) {
       <thead>
         <tr>
           <th colSpan="5">
-            <h3>Selected foods</h3><h6>Click on selected food item to remove it from list</h6>
+            <h3>Selected Foods</h3><h6>Click on selected food item to remove it from list.</h6>
           </th>
         </tr>
         <tr>

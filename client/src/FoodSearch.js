@@ -79,7 +79,7 @@ class FoodSearch extends React.Component {
                     onClick={this.handleSearchCancel}
                     style={removeIconStyle}
                   />
-                  <h6>Start typing to populate the list and then click on the item to add it to the Selected foods list</h6>
+                  <h6>Start typing to populate the list and then click on the item to add it to the Selected Foods list.</h6>
                 </div>
               </th>
             </tr>

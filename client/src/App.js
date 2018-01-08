@@ -24,8 +24,8 @@ class App extends Component {
 
     return (
       <div className="wrapper"><br></br>
-        <h2 className="ui huge center aligned blue header">
-          <img className="ui small image" src="./NASA-Logo-Large.jpg" alt="Logo placement"></img>
+        <h2 className="ui center aligned blue header">
+          <img className="ui large image" src="./abacus.png" alt="Logo placement"></img>
           <div className="content">NutriCalc
             </div>
         </h2>
@@ -39,7 +39,7 @@ class App extends Component {
           <FoodSearch onFoodClick={this.addFood} />
         </div>
         <div className="ui hidden divider"></div>
-        <div className="ui center aligned secondary segment">2018 | Created by Jeremy Avenarius
+        <div className="ui center aligned secondary segment">2018 | Jeremy Avenarius
 
         </div>
         </div>
