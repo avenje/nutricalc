@@ -63,7 +63,7 @@ class FoodSearch extends React.Component {
           <thead>
             <tr>
               <th colSpan="5">
-                <div className="ui fluid search">
+                <div className="ui fluid large search">
                   <div className="ui icon input">
                     <input
                       className="prompt"
@@ -79,6 +79,7 @@ class FoodSearch extends React.Component {
                     onClick={this.handleSearchCancel}
                     style={removeIconStyle}
                   />
+                  <h6>Start typing to populate the list and then click on the item to add it to the Selected foods list</h6>
                 </div>
               </th>
             </tr>

@@ -23,6 +23,13 @@ class App extends Component {
     const { selectedFoods } = this.state;
 
     return (
+      <div className="wrapper"><br></br>
+        <h2 className="ui huge center aligned blue header">
+          <img className="ui small image" src="./NASA-Logo-Large.jpg" alt="Logo placement"></img>
+          <div className="content">NutriCalc
+            </div>
+        </h2>
+
       <div className="App">
         <div className="ui text container">
           <SelectedFoods
@@ -30,6 +37,11 @@ class App extends Component {
             onFoodClick={this.removeFoodItem}
           />
           <FoodSearch onFoodClick={this.addFood} />
+        </div>
+        <div className="ui hidden divider"></div>
+        <div className="ui center aligned secondary segment">2018 | Created by Jeremy Avenarius
+
+        </div>
         </div>
       </div>
     );
