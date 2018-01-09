@@ -24,24 +24,22 @@ class App extends Component {
 
     return (
       <div className="wrapper"><br></br>
+
         <h2 className="ui center aligned blue header">
-          <img className="ui large image" src="./abacus.png" alt="Logo placement"></img>
-          <div className="content">NutriCalc
-            </div>
+          <img className="ui image" src="./logo-blue.png" alt="Logo placement"/>
+          <div className="content">NutriCalc</div>         
         </h2>
 
-      <div className="App">
-        <div className="ui text container">
-          <SelectedFoods
-            foods={selectedFoods}
-            onFoodClick={this.removeFoodItem}
-          />
-          <FoodSearch onFoodClick={this.addFood} />
-        </div>
-        <div className="ui hidden divider"></div>
-        <div className="ui center aligned secondary segment">2018 | Jeremy Avenarius
-
-        </div>
+        <div className="App">
+          <div className="ui text container">
+            <SelectedFoods
+              foods={selectedFoods}
+              onFoodClick={this.removeFoodItem}
+            />
+            <FoodSearch onFoodClick={this.addFood} />
+          </div>
+          <div className="ui hidden divider"></div>
+          <div className="ui center aligned secondary segment">2018 | Jeremy Avenarius</div>
         </div>
       </div>
     );
