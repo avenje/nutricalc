@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import SelectedFoods from "./SelectedFoods";
 import FoodSearch from "./FoodSearch";
+import Logo from "./logo-blue.png";
 
 class App extends Component {
   state = {
@@ -25,9 +26,9 @@ class App extends Component {
     return (
       <div className="wrapper"><br></br>
 
-        <h2 className="ui center aligned blue header">
-          <img className="ui image" src="./logo-blue.png" alt="Logo placement"/>
-          <div className="content">NutriCalc</div>         
+        <h2 className="ui center aligned violet header">
+          <img className="ui small image" src={ Logo } alt="Logo placement"/>
+          <div className="content" id="logoName">NutriCalc</div>         
         </h2>
 
         <div className="App">

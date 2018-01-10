@@ -11,3 +11,8 @@ body {
 #food-search {
   margin-top: 5em;
 }
+
+#logoName {
+  font-size: 8rem;
+  color: #1103ec;
+}
