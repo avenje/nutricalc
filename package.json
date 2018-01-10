@@ -23,6 +23,9 @@
     "server": "node server.js",
     "client": "node start-client.js"
   },
+  "engines": {
+    "node": "6.11.3"
+  },
   "author": "",
   "license": "ISC"
 }
