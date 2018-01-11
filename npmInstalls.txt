@@ -12,3 +12,6 @@
 // npm i --save-dev enzyme react-addons-test-utils react-scripts
 
 // npm i babel-plugin-transform-class-properties react react-dom semantic-ui --save
+
+
+//  The data driving the app is supplied by the USDA's National Nutrient Database.
