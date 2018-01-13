@@ -1,5 +1,6 @@
 'use strict';
 
+// authentication middleware for Node.js
 var passport = require('passport'),
   TwitterTokenStrategy = require('passport-twitter-token'),
   User = require('mongoose').model('User'),

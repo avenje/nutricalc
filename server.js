@@ -48,6 +48,7 @@ router.route('/health-check').get(function(req, res) {
   res.send('Hello World');
 });
 
+// use the user’s ID to create a token
 var createToken = function(auth) {
   return jwt.sign({
     id: auth.id
@@ -124,6 +125,8 @@ router.route('/auth/twitter')
     }, generateToken, sendToken);
 
 //token handling middleware
+// If the token is valid, req.auth will be set
+// with the decoded JSON object
 var authenticate = expressJwt({
   secret: 'my-secret',
   requestProperty: 'auth',
@@ -187,8 +190,7 @@ app.get("/api/food", (req, res) => {
     return;
   }
 
-  // WARNING: Not for production use! The following statement
-  // is not protected against SQL injections.
+  // grab our search entries
   const r = db.exec(
     `
     select ${COLUMNS.join(", ")} from entries
@@ -196,7 +198,7 @@ app.get("/api/food", (req, res) => {
     limit 100
   `
   );
-
+// create our lists
   if (r[0]) {
     res.json(
       r[0].values.map(entry => {

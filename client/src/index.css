@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Palatino", sans-serif;
+  font-family: sans-serif;
 }
 
 .App {
@@ -15,4 +15,8 @@ body {
 #logoName {
   font-size: 8rem;
   color: #1103ec;
+}
+
+#logoName {
+  font-family: "Sriracha", sans-serif; 
 }

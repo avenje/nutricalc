@@ -7,6 +7,8 @@ module.exports = function () {
 
   var db = mongoose.connect('mongodb://localhost:27017/twitter-demo');
 
+  // add one static method that will be used for creating 
+  // a new user, if the user doesn’t exist already
   var UserSchema = new Schema({
     email: {
       type: String, required: true,
@@ -56,3 +58,5 @@ module.exports = function () {
 
   return db;
 };
+
+// https://prezi.com/view/sd8jGrpQg8iNsXeOijd9/
