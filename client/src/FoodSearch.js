@@ -84,7 +84,7 @@ class FoodSearch extends React.Component {
               </th>
             </tr>
             <tr>
-              <th className="eight wide">Description</th>
+              <th className="eight wide"><h2>Description</h2></th>
               <th>Kcal</th>
               <th>Protein (g)</th>
               <th>Fat (g)</th>
