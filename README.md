@@ -16,7 +16,7 @@ This simple app will calculate the kcal, protein, fat, and carbs in your ingredi
 ----------
 
  - Click on the ingredient you want to look up and repeat as necessary.  
- - On the table on the above, you will see a list of your chosen ingredients with the grand total of kcal, protein, fat, and carbs.
+ - On the table above the Search Box, you will see a list of your chosen ingredients with the grand total of kcal, protein, fat, and carbs.
  ![enter image description here](https://lh3.googleusercontent.com/1DNGqKXqFyujXrHgjTBDXpqy5fSNoH6sQ_3VMTQLGJI1piqi6A0Yjnf_Y4gZYQqMvw2ozm4JfQVDFfLFfe9QxqtBIYXhRLMCP7yVQx4HRoNWYBJ4ur2tgKp36nbgfuck0BRJG12jw8-CuxtyWE7_z2F78nhDkQZxrKPn2E9jFnnXDYidvJBm64jysoqoGTZQqBjkfEAZ_MJv3wCSUeTbBWWUHb1KT4MGVgqXAMTnCJjRwRL3QpetMak32JHYyS_RxMLTLZZHP52E0kJlO_UaJ1YhofJQawgf0dns0ho-OilO0Pt7nL4Rn2hrNIXfcH5QPirx_AYVdPIvfh8ATA7vExdmG3t1ffmk3Gsdad_LSoxUH7DPlXyRaJn0PF6-TMFmDQdEbNiwrYPyfmOH6oP-IGHKnfaQEW-X9aFUyYtfK9_ldamwFbb8bUkGdDgDdjHLaVbPvXCupP8LdDiN3ZjF8Dq7dGl7GwF2pNK-rP0kOPfmu_Ze1M7KdWbyZiWew5nTakNairh2eyFlLl3a_vdLnkYhmu_ghvJ6hNdN_yeBJ4KupBrPv-qpLTxIlBBZFzSdCq8Sg24O3MttUIYnZz6hoSKurnVAi0fWKC5A0WU=w1088-h680-no)
  
 
