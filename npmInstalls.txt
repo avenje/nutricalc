@@ -1,17 +1,22 @@
-// install in root
+Setting up the package.json files
+======================================
 
-// npm i --save-dev concurrently eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+install in root
 
-// npm i babel-core express fs sql.js --save 
+npm i --save-dev concurrently eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react gulp gulp-eslint gulp-nodemon
+
+npm i babel-core body-parser cors express express-jwt fs jsonwebtoken mongoose passport passport-twitter-token request sql.js --save 
 
 ======================================
 ======================================
 
-// install in /client
+install in /client
 
-// npm i --save-dev enzyme react-addons-test-utils react-scripts
+npm i --save-dev enzyme react-addons-test-utils react-scripts
 
-// npm i babel-plugin-transform-class-properties react react-dom semantic-ui --save
+npm i babel-plugin-transform-class-properties react react-dom react-twitter-auth semantic-ui --save
 
 
-//  The data driving the app is supplied by the USDA's National Nutrient Database.
+=====================================
+The data driving the app is supplied
+by the USDA's National Nutrient Database.

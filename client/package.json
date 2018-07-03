@@ -5,10 +5,10 @@
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-twitter-auth": "0.0.10",
-    "semantic-ui": "^2.2.13"
+    "semantic-ui": "^2.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,6 +19,6 @@
   "devDependencies": {
     "enzyme": "^3.3.0",
     "react-addons-test-utils": "^15.6.2",
-    "react-scripts": "^1.0.17"
+    "react-scripts": "^1.1.4"
   }
 }
