@@ -33,6 +33,3 @@ This simple app will calculate the kcal, protein, fat, and carbs in your ingredi
 
 
 Thank you for checking out this app!
-
-
-
