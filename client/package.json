@@ -8,7 +8,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-twitter-auth": "0.0.10",
-    "semantic-ui": "^2.3.2"
+    "semantic-ui": "^2.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
